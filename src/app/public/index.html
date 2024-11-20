@@ -5,12 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>creator</title>
+  <script src="/socket.io/socket.io.js"></script>
 </head>
 
 <body>
   <div id="app"></div>
+  <script type="module">
+    import { HTML } from '../../libs/frontend/index.js'
+    import { Page } from './index.js'
 
-  <script type="module" src="./index.js"></script>
+    HTML.fromId('app').append(new Page())
+    HTML.fromElement(document.body).setStyle('margin', '0')
+  </script>
 </body>
 
 </html>
