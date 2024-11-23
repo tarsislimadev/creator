@@ -8,19 +8,19 @@
 
 ## tools
 
-- [ ] record screen (FFMPEG)
+- [ ] from screen/cam recorded (with FFMPEG) to a timeline item
 
-- [ ] split video in images (FFMPEG)
+- [ ] from videos in timeline to images (with FFMPEG)
 
-- [ ] write narration(s)
+- [ ] write narrations (texts files)
 
-- [ ] generate audio by narration text (ELEVENLABS API)
+- [ ] from narrations to audio files in timeline (ELEVENLABS API)
 
-- [ ] join image and audio (FFMPEG)
+- [ ] from images/videos and audios in timeline to an unique video file (with FFMPEG)
 
-- [ ] join video parts (FFMPEG)
+- [ ] from many video files to an unique video file (with FFMPEG)
 
-- [ ] uploa video (YOUTUBE API)
+- [ ] upload video file to YOUTUBE API
 
 ## license
 
